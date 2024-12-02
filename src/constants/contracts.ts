@@ -1,0 +1,103 @@
+import { Contract, ContractDetail } from "@/model";
+
+export const CONTRACTS: Contract[] = [
+  {
+    id: "1",
+    userId: "1",
+    title: "친구에게 돈 받기",
+    contractDate: "2024-01-01",
+    contractAmount: 500,
+  },
+  {
+    id: "2",
+    userId: "2",
+    title: "월세 보증금 반환",
+    contractDate: "2024-01-15",
+    contractAmount: 5000000,
+  },
+  {
+    id: "3",
+    userId: "3",
+    title: "중고차 매매 계약",
+    contractDate: "2024-01-20",
+    contractAmount: 15000000,
+  },
+  {
+    id: "4",
+    userId: "1",
+    title: "노트북 할부금 납부",
+    contractDate: "2024-02-01",
+    contractAmount: 200000,
+  },
+  {
+    id: "5",
+    userId: "2",
+    title: "동아리 회비 수금",
+    contractDate: "2024-02-05",
+    contractAmount: 30000,
+  },
+  {
+    id: "6",
+    userId: "2",
+    title: "가구 구매 계약금",
+    contractDate: "2024-02-10",
+    contractAmount: 300000,
+  },
+];
+
+export const CONTRACT_DETAILS: ContractDetail[] = [
+  {
+    id: "1",
+    userId: "1",
+    title: "친구에게 돈 받기",
+    contractDate: "2024-01-01",
+    contractAmount: 500,
+    status: "진행중",
+    paymentMethod: "현금",
+  },
+  {
+    id: "2",
+    userId: "2",
+    title: "월세 보증금 반환",
+    contractDate: "2024-01-15",
+    contractAmount: 5000000,
+    status: "완료",
+    paymentMethod: "계좌이체",
+  },
+  {
+    id: "3",
+    userId: "3",
+    title: "중고차 매매 계약",
+    contractDate: "2024-01-20",
+    contractAmount: 15000000,
+    status: "진행중",
+    paymentMethod: "계좌이체",
+  },
+  {
+    id: "4",
+    userId: "1",
+    title: "노트북 할부금 납부",
+    contractDate: "2024-02-01",
+    contractAmount: 200000,
+    status: "진행중",
+    paymentMethod: "신용카드",
+  },
+  {
+    id: "5",
+    userId: "2",
+    title: "동아리 회비 수금",
+    contractDate: "2024-02-05",
+    contractAmount: 30000,
+    status: "취소",
+    paymentMethod: "현금",
+  },
+  {
+    id: "6",
+    userId: "2",
+    title: "가구 구매 계약금",
+    contractDate: "2024-02-10",
+    contractAmount: 300000,
+    status: "진행중",
+    paymentMethod: "신용카드",
+  },
+];
