@@ -52,3 +52,5 @@ Toss의 라이브러리의 기능을 직접 맨땅부터 구현해보며 Typescr
 
 - `useFunnel`을 사용할 때 미리 해당 퍼널의 타입을 정의해서, 해당 타입이 아닌 퍼널이 들어올 경우 에러를 발생해야 합니다.
 - `useFunnel`의 형태는 꼭 컨퍼런스에서 나온 형태와 같지 않아도 됩니다. 중요한 것은 퍼널의 기능을 구현하는 것입니다.
+- `useFunnel`의 구현이 어렵다면, Toss의 `useFunnel` [원본 코드](https://github.com/toss/slash/tree/main/packages/react/use-funnel)를 참고해보세요
+  - 해당 코드는 deprecated 되었지만, 최신 코드는 너무 거대해진 감이 있어 구 버전의 코드로 먼저 이해하는 것을 시작해봅시다
